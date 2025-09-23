@@ -49,7 +49,7 @@ A series of preprocessing steps were applied to prepare the dataset for training
 
 
 Note:  
-Using **K-Fold stratified group splitting** gave higher diagonal scores, but this is misleading — folds can leak subtle patient-level or distributional information.  
+Using **K-Fold stratified group splitting** gave higher diagonal scores, but this is misleading as folds can leak subtle patient-level or distributional information.  
 Therefore, the stricter **TVT patient-level split** is more reliable for true generalization.
 
 ---
